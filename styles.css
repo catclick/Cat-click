@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #add8e6; /* Warna biru muda */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+    color: #1da1f2; /* Warna biru untuk hyperlink */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#popcat {
+    width: 300px;
+    cursor: pointer;
+}
+
+#counter {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#captcha-placeholder {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
